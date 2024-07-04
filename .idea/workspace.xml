@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e71599a-be79-4970-a7da-8e923b4c7fcf" name="Changes" comment="Chapter 3. String Reversal. 3 Solutions.">
-      <change beforePath="$PROJECT_DIR$/src/exercises/reverseString/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/reverseString/Solution.java" afterDir="false" />
+    <list default="true" id="9e71599a-be79-4970-a7da-8e923b4c7fcf" name="Changes" comment="Chapter 3. String Reversal. Added 4th solution using lambda.">
+      <change afterPath="$PROJECT_DIR$/src/exercises/palindrome/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/palindrome/SolutionsWithLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +49,15 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.SolutionsWithLambda.executor": "Run",
+    "Application.exercises.palindrome.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/HYPERPC/Documents/Java/bootcamp-algorithms-and-data-structure/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.SolutionsWithLambda">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="bootcamp-algorithms-and-data-structure" />
@@ -74,8 +78,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionsWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.palindrome.SolutionsWithLambda" />
+      <module name="bootcamp-algorithms-and-data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.palindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercises.palindrome.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.palindrome.Solution" />
+      <module name="bootcamp-algorithms-and-data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.palindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolutionsWithLambda" />
+        <item itemvalue="Application.exercises.palindrome.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
       </list>
@@ -106,12 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720052386822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter 3. String Reversal. Added 4th solution using lambda.">
+      <option name="closed" value="true" />
+      <created>1720053323895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720053323895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Chapter 3. String Reversal. 3 Solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3. String Reversal. 3 Solutions." />
+    <MESSAGE value="Chapter 3. String Reversal. Added 4th solution using lambda." />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3. String Reversal. Added 4th solution using lambda." />
   </component>
 </project>
