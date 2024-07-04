@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e71599a-be79-4970-a7da-8e923b4c7fcf" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/exercises/reverseString/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="9e71599a-be79-4970-a7da-8e923b4c7fcf" name="Changes" comment="Chapter 3. String Reversal. 3 Solutions.">
+      <change beforePath="$PROJECT_DIR$/src/exercises/reverseString/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/reverseString/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +98,20 @@
       <option name="project" value="LOCAL" />
       <updated>1720046727862</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chapter 3. String Reversal. 3 Solutions.">
+      <option name="closed" value="true" />
+      <created>1720052386822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720052386822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Chapter 3. String Reversal. 3 Solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3. String Reversal. 3 Solutions." />
   </component>
 </project>

@@ -24,9 +24,20 @@ public class Solution {
         return resultStr;
     }
 
+    public static String reverse4lamda(String string){
+        StringReverser reverser = str -> new StringBuilder(string).reverse().toString();
+        return reverser.reverse4(string);
+    }
+
     public static void main(String[] args) {
         System.out.println(Solution.reverse1("hello"));
         System.out.println(Solution.reverse2("hello"));
         System.out.println(Solution.reverse3("hello"));
+        System.out.println(Solution.reverse4lamda("hello"));
+    }
+
+    @FunctionalInterface
+    interface StringReverser{
+        String reverse4(String s);
     }
 }
