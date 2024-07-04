@@ -9,9 +9,9 @@ public class Solution {
     public List<List<Integer>> chunkArray(Integer[] array, int chunkSize){
         List<List<Integer>> resultList = new ArrayList<>();
         List<Integer> currentList = new ArrayList<>();
-        for(int i = 0; i < array.length; i++){
-            currentList.add(array[i]);
-            if(currentList.size() == chunkSize) {
+        for (Integer integer : array) {
+            currentList.add(integer);
+            if (currentList.size() == chunkSize) {
                 resultList.add(new ArrayList<>(currentList));
                 currentList.clear();
             }
