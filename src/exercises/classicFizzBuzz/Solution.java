@@ -5,6 +5,7 @@ public class Solution {
         fizzbuzz(100);
     }
 
+
     public static void fizzbuzz(int n){
         for(int i = 1; i < n; i++){
             if(i % 3 == 0 && i % 5 == 0) System.out.println("fizzbuzz");
