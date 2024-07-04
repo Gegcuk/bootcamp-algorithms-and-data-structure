@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e71599a-be79-4970-a7da-8e923b4c7fcf" name="Changes" comment="Chapter 5. Reversed Integer is done.">
-      <change afterPath="$PROJECT_DIR$/src/exercises/maxChars/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9e71599a-be79-4970-a7da-8e923b4c7fcf" name="Changes" comment="Chapter 6. Max chars is done">
+      <change afterPath="$PROJECT_DIR$/src/exercises/classicFizzBuzz/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     "Application.Main.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SolutionsWithLambda.executor": "Run",
+    "Application.exercises.classicFizzBuzz.Solution.executor": "Run",
     "Application.exercises.integerReversal.Solution.executor": "Run",
     "Application.exercises.maxChars.Solution.executor": "Run",
     "Application.exercises.palindrome.Solution.executor": "Run",
@@ -58,13 +58,13 @@
     "onboarding.tips.debug.path": "C:/Users/HYPERPC/Documents/Java/bootcamp-algorithms-and-data-structure/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exercises.maxChars.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.reverseString.Solution" />
+  <component name="RunManager" selected="Application.exercises.classicFizzBuzz.Solution">
+    <configuration name="SolutionsWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.palindrome.SolutionsWithLambda" />
       <module name="bootcamp-algorithms-and-data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.reverseString.*" />
+          <option name="PATTERN" value="exercises.palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionsWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.palindrome.SolutionsWithLambda" />
+    <configuration name="exercises.classicFizzBuzz.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.classicFizzBuzz.Solution" />
       <module name="bootcamp-algorithms-and-data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.palindrome.*" />
+          <option name="PATTERN" value="exercises.classicFizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercises.classicFizzBuzz.Solution" />
         <item itemvalue="Application.exercises.maxChars.Solution" />
         <item itemvalue="Application.exercises.integerReversal.Solution" />
         <item itemvalue="Application.SolutionsWithLambda" />
         <item itemvalue="Application.exercises.palindrome.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720097466324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Chapter 6. Max chars is done">
+      <option name="closed" value="true" />
+      <created>1720101716605</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720101716605</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +200,7 @@
     <MESSAGE value="Chapter 3. String Reversal. Added 4th solution using lambda." />
     <MESSAGE value="Chapter 4. Palindrome. Simple solution and lambda solution." />
     <MESSAGE value="Chapter 5. Reversed Integer is done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 5. Reversed Integer is done." />
+    <MESSAGE value="Chapter 6. Max chars is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6. Max chars is done" />
   </component>
 </project>
