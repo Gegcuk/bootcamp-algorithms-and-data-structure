@@ -3,9 +3,8 @@ package exercises.senctenceCapitalization;
 public class Solution {
     public String capitalize(String s){
         StringBuilder resultString = new StringBuilder();
-        boolean spaceFlag = false;
-        s = s.trim();
-        if(Character.isLowerCase(s.charAt(0))) s = s.replace(s.charAt(0), Character.toUpperCase(s.charAt(0)));
+        boolean spaceFlag = true;
+
         for(char ch : s.toCharArray()){
             if(spaceFlag && Character.isLowerCase(ch)) ch = Character.toUpperCase(ch);
             if(ch == ' ') {
@@ -17,7 +16,7 @@ public class Solution {
                 spaceFlag = false;
             }
         }
-        return resultString.toString();
+        return resultString.toString().trim();
     }
 
     public static void main(String[] args) {
