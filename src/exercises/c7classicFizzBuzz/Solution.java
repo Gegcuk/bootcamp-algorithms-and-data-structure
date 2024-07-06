@@ -1,4 +1,4 @@
-package exercises.classicFizzBuzz;
+package exercises.c7classicFizzBuzz;
 
 public class Solution {
     public static void main(String[] args) {

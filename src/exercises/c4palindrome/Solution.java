@@ -1,4 +1,4 @@
-package exercises.palindrome;
+package exercises.c4palindrome;
 
 public class Solution {
     public boolean isPalindrome(String s){

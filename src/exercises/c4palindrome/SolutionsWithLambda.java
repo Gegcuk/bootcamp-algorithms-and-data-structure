@@ -1,4 +1,4 @@
-package exercises.palindrome;
+package exercises.c4palindrome;
 
 @FunctionalInterface
 interface PalindromeChecker{

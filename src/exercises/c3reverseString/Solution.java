@@ -1,4 +1,4 @@
-package exercises.reverseString;
+package exercises.c3reverseString;
 
 public class Solution {
     public static String reverse1(String str){

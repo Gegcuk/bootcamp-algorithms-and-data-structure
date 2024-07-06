@@ -1,4 +1,4 @@
-package exercises.maxChars;
+package exercises.c6maxChars;
 
 import java.util.HashMap;
 import java.util.Map;

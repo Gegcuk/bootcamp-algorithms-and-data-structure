@@ -1,4 +1,4 @@
-package exercises.arrayChunking;
+package exercises.c8arrayChunking;
 
 import java.util.ArrayList;
 import java.util.Arrays;

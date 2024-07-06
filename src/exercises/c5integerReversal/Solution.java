@@ -1,4 +1,4 @@
-package exercises.integerReversal;
+package exercises.c5integerReversal;
 
 public class Solution {
     public int reverseInteger(Integer number){

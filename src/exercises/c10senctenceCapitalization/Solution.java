@@ -1,4 +1,4 @@
-package exercises.senctenceCapitalization;
+package exercises.c10senctenceCapitalization;
 
 public class Solution {
     public String capitalize(String s){

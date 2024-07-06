@@ -1,4 +1,4 @@
-package exercises.anagrams;
+package exercises.c9anagrams;
 
 import java.util.Arrays;
 import java.util.HashMap;
