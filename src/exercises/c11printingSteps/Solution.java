@@ -2,25 +2,20 @@ package exercises.c11printingSteps;
 
 public class Solution {
 
-    public static void printSteps(int n){
-        for(int i = 1; i <= n; i++){
-            for(int x = 1; x <= i; x++){
-                int stringLength = i;
-                StringBuilder s = new StringBuilder();
-                for(int j = 0; j < x; j++){
-                    s.append("#");
-                    stringLength--;
-                }
-                for(int j = 0; j < stringLength; j++){
-                    s.append(" ");
-                }
-                System.out.println(s);
+    public static void printSteps2(int n){
+        for (int row = 0; row < n; row++){
+            StringBuilder stair = new StringBuilder();
+            for(int column = 0; column < n; column++){
+                if(row >= column) stair.append("#");
+                else stair.append(" ");
             }
+            System.out.println(stair);
         }
     }
 
-    public static void main(String[] args) {
-        printSteps(3);
+
+        public static void main(String[] args) {
+        printSteps2(3);
     }
 
 }
